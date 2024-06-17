@@ -1,0 +1,173 @@
+/* General styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: blue;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    background-color: #ffcc00;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: black;
+}
+
+header a {
+    font-size: 10px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1em;
+    color: blue;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 0.8em;
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #b22222;
+    font-size: 1.4em;
+    border-bottom: 2px dashed #b22222;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.card {
+    border: 1px solid #b22222;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f0e68c;
+}
+
+.card h3 {
+    color: #b22222;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 0%;
+}
+
+.card p {
+    font-size: 1em;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+ul ul {
+    padding-left: 20px;
+    list-style: disc;
+    margin: 0%;
+}
+
+marquee {
+    background-color: #ffcc00;
+    padding-bottom: 2px;
+}
+
+ul ul li {
+    font-size: 0.95em;
+    margin: 5px 0;
+}
+
+/* Hide elements by default */
+.hidden {
+    display: none;
+}
+
+/* Style for expandable items */
+.expandable {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    header h1 {
+        font-size: 1.4em;
+    }
+
+
+    header p {
+        font-size: 0.8;
+    }
+
+    section h2 {
+        font-size: 1.2em;
+        margin-bottom: 2px;
+    }
+
+    .card {
+        padding: 8px;
+    }
+
+    .card h3 {
+        font-size: 1.1em;
+    }
+
+    .card p {
+        font-size: 0.9em;
+    }
+
+    ul ul {
+        padding-left: 15px;
+    }
+
+    ul ul li {
+        font-size: 0.9em;
+    }
+}
