@@ -1,7 +1,7 @@
 /* General styles */
 body {
-    font-family: "Comic Sans MS";
-    src: url("comic-sans-ms/comic.ttf");
+    font-family: 'Comic Sans MS', sans-serif;
+    src: url("comic-sans-ms/comici.ttf");
     background-color: blue;
     color: #333;
     margin: 0;
